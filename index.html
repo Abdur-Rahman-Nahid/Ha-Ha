@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ha Ha</title>
+    <style>
+        body {
+
+            background: black;
+            display: flex ;
+            justify-content: center ;
+            align-items: center ;
+            min-height: 100vh;
+
+
+
+      }
+
+
+
+        #wrapper {
+
+            width:600px;
+            height:600px; 
+            display: flex;
+            justify-content: center ;
+            align-items: center ;
+            
+        
+    
+        
+        }
+
+        #haha_body {
+
+            width: 250px;
+            height: 250px ;
+            background-color: #FED868;
+            display: block;
+            position: relative;
+            border-radius: 100%;
+            overflow: hidden;
+            
+    
+
+        }
+        
+        #haha_mouth {
+
+            height: 190px;
+            width: 190px;
+            background: #F34E6A;
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            border-radius: 100%;
+            overflow: hidden;
+           
+         
+
+
+        }
+
+        #haha_mouth::before {
+
+            content: "" ;
+            width: 190px;
+            height: 50px;
+            background: #000102;
+            position: absolute;
+            top: 99px;
+         
+            
+
+
+        }
+ 
+
+        
+
+        #haha_mouth_cover {
+            
+            width: 200px;
+            height: 100px;
+            background: #FED868 ;
+            position: absolute;
+            top: -1px;
+            overflow: hidden;
+            
+            
+    
+           
+            
+
+
+
+
+        }
+        #haha_mouth_inside_circle {
+
+            width: 190px;
+            height: 60px;
+            background: #F34E6A;;
+            position: absolute;
+            top: 123px;
+            
+            border-radius: 100%;
+
+            
+          
+
+
+
+        }
+
+        #haha_eye_box {
+
+            background: #FED868 ;
+            width: 250px;
+            height: 129px;
+   
+            position: absolute;
+   
+
+
+
+
+        }
+
+        #haha_eyes {
+
+            width: 300px;
+            height: 80px;
+            position: absolute;
+            top: 30px;
+
+
+
+
+
+        }
+
+#eye_line_left_up {
+
+    height: 7px;
+    width: 40px;
+    background: #000102;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    transform:rotate(25deg);
+    border-radius: 5px;
+
+}
+
+#eye_line_left_down {
+
+height: 7px;
+width: 40px;
+background: #000102;
+position: absolute;
+top: 55px;
+left: 40px;
+transform:rotate(-25deg);
+border-radius: 5px;
+
+}
+
+
+#eye_line_right_up {
+
+height: 7px;
+width: 40px;
+background: #000102;
+position: absolute;
+top: 40px;
+left: 170px;
+transform:rotate(-25deg);
+border-radius: 5px;
+
+}
+
+#eye_line_right_down {
+
+height: 7px;
+width: 40px;
+background: #000102;
+position: absolute;
+top: 55px;
+left: 170px;
+transform:rotate(25deg);
+border-radius: 5px;
+
+}
+
+
+    </style>
+</head>
+<body>
+  
+    <div id="wrapper"> 
+        <div>
+            <div>
+                <div>
+                   
+                    <span id="haha_body"> 
+                        
+
+                      
+
+                        
+                        <span id="haha_mouth"> 
+                            
+                            <span id="haha_mouth_cover"> </span>
+
+                            <span id="haha_mouth_inside_circle"> 
+
+                            </span>
+
+                        </span> 
+
+                        
+
+                        <span id="haha_eye_box"> </span>
+                   
+                     <span id="haha_eyes">
+                        <span id="eye_line_left_up"> </span> 
+                       
+                        <span id="eye_line_left_down"> </span> 
+
+                        <span id="eye_line_right_up"> </span>
+                        <span id="eye_line_right_down"> </span>
+                    </span>
+
+                    </span>
+                    
+                    
+    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+</html>
